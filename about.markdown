@@ -16,3 +16,14 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+<p>
+  Test.
+<div class="contact-links content-contact-links">
+<!--   <a href="/assets/docs/resume_no_phone_number.pdf"><i class="fa fa-file-text" aria-hidden="true"></i> <span>Resume</span></a> -->
+  |
+  <a href="https://github.com/JacobKohav"><i class="fa fa-github-square" aria-hidden="true"></i> <span>GitHub</span></a>
+  |
+  <a href="https://www.linkedin.com/in/jacob-kohav-02598711a//"><i class="fa fa-jsfiddle" aria-hidden="true"></i> <span>LinkedIn</span></a>
+</div>
+</p>
