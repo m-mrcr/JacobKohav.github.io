@@ -1,6 +1,6 @@
 ---
 layout: page
 title: test
-permalink: /test/
+permalink: /Projects/
 ---
 # Projects
