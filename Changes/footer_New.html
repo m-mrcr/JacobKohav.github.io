@@ -3,8 +3,13 @@
 
   <div class="wrapper">
 
+<!-- Columns -->
     <div class="footer-col-wrapper">
+
+<!-- Column No. 1 -->
       <div class="footer-col">
+
+<!-- Subscribe -->
         <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
             <svg class="svg-icon orange">
@@ -12,6 +17,8 @@
             </svg><span>Subscribe</span>
           </a>
         </p>
+
+<!-- Title/Email -->
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
@@ -22,12 +29,18 @@
           {%- endif %}
         </ul>
       {%- endif %}
+      
       </div>
+
+<!-- Column No. 2 -->
+<!-- Description -->
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
       </div>
+
     </div>
 
+<!-- Link -->
     <div class="social-links">
       {%- include social.html -%}
     </div>
